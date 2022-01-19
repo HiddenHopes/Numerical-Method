@@ -3,9 +3,7 @@
 #define E 0.0005
 double f(double x)
 {
-    double r;
-    r = x*x*x - 9*x + 1;
-    return r;
+    return x*x*x - 9*x + 1;
 }
 int main()
 {
